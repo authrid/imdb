@@ -2,7 +2,7 @@ import Image from 'next/image'
 export default function Loading() {
   return (
     <div className="flex justify-center">
-        <img className="h-96" src="spinner.svg" alt="Loading..."/>
+        <Image className="h-96" src="spinner.svg" alt="Loading..." width={800} height={500}/>
     </div>
   )
 }
