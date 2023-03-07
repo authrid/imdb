@@ -20,7 +20,7 @@ export default function Card({result}) {
             }}
             placeholder="blur"
             blurDataURL="/spinner.svg"
-            alt="image in not available"></Image>
+            alt="image in not available" />
             <div className="p-2">
                 <p className="line-clamp-2 text-md">{result.overview}</p>
                 <h2 className="truncate text-lg font-bold">
